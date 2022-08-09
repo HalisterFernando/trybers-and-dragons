@@ -1,4 +1,4 @@
-import Race, { Halfling } from '../../src/Races';
+import Race, { Halfling } from '../../src/Races/Race';
 
 const x = (y: Race) => {
 
