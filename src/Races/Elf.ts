@@ -11,6 +11,10 @@ export default class Elf extends Race {
     Elf._instanceCount += 1;
   }
 
+  static get dexterity(): number {
+    return this.dexterity;
+  }
+
   get maxLifePoints(): number {
     return this._maxLifePoints;
   }
